@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piano Simulator</title>
+    <link rel="shortcut icon" href="images/piano-logo.png" type="image/png" />
+    <script
+      src="https://kit.fontawesome.com/7ed22bcdfc.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Piano Simulator</h1>
+      <section class="key-checkbox">
+        <input type="checkbox">
+        <p>Show keyboards</p>
+      </section>
+    </header>
+    <main>
+      <div id="container">
+        <div class="white key" data-note="C" data-code="65">
+          <div class="black key" data-note="C#" data-code="81">
+            <p class="shortcut key-shortcut-black">Q</p>
+          </div>
+          <p class="shortcut">A</p>
+        </div>
+        <div class="white key" data-note="D" data-code="83">
+          <div class="black key" data-note="D#" data-code="87">
+            <p class="shortcut key-shortcut-black">W</p>
+          </div>
+          <p class="shortcut">S</p>
+        </div>
+        <div class="white key" data-note="E" data-code="68">
+          <p class="shortcut">D</p>
+        </div>
+        <div class="white key" data-note="F" data-code="70">
+          <div class="black key" data-note="F#" data-code="82">
+            <p class="shortcut key-shortcut-black">R</p>
+          </div>
+          <p class="shortcut">F</p>
+        </div>
+        <div class="white key" data-note="G" data-code="71">
+          <div class="black key" data-note="G#" data-code="84">
+            <p class="shortcut key-shortcut-black">T</p>
+          </div>
+          <p class="shortcut">G</p>
+        </div>
+        <div class="white key" data-note="A" data-code="72">
+          <div class="black key" data-note="A#" data-code="89">
+            <p class="shortcut key-shortcut-black">Y</p>
+          </div>
+          <p class="shortcut">H</p>
+        </div>
+        <div class="white key" data-note="B" data-code="74">
+          <p class="shortcut">J</p>
+        </div>
+        <div class="white key" data-note="C" data-code="75">
+          <div class="black key" data-note="C#" data-code="73">
+            <p class="shortcut key-shortcut-black">I</p>
+          </div>
+          <p class="shortcut">K</p>
+        </div>
+        <div class="white key" data-note="D" data-code="76">
+          <div class="black key" data-note="D#" data-code="79">
+            <p class="shortcut key-shortcut-black">O</p>
+          </div>
+          <p class="shortcut">L</p>
+        </div>
+        <div class="white key" data-note="E" data-code="80">
+          <p class="shortcut">P</p>
+        </div>
+      </div>
+
+      <section class="audios">
+        <audio data-code="65" src="sounds/040.wav"></audio>
+        <audio data-code="81" src="sounds/041.wav"></audio>
+        <audio data-code="83" src="sounds/042.wav"></audio>
+        <audio data-code="87" src="sounds/043.wav"></audio>
+        <audio data-code="68" src="sounds/044.wav"></audio>
+        <audio data-code="70" src="sounds/045.wav"></audio>
+        <audio data-code="82" src="sounds/046.wav"></audio>
+        <audio data-code="71" src="sounds/047.wav"></audio>
+        <audio data-code="84" src="sounds/048.wav"></audio>
+        <audio data-code="72" src="sounds/049.wav"></audio>
+        <audio data-code="89" src="sounds/050.wav"></audio>
+        <audio data-code="74" src="sounds/051.wav"></audio>
+        <audio data-code="75" src="sounds/052.wav"></audio>
+        <audio data-code="73" src="sounds/053.wav"></audio>
+        <audio data-code="76" src="sounds/054.wav"></audio>
+        <audio data-code="79" src="sounds/055.wav"></audio>
+        <audio data-code="80" src="sounds/056.wav"></audio>
+      </section>
+    </main>
+    <footer>
+      <h2>Minhas redes sociais</h2>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/lucas-nascimento-devweb/"
+            ><i class="fa-brands fa-linkedin fa-lg"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/lucasNSF"><i class="fa-brands fa-github fa-lg"></i></a>
+        </li>
+      </ul>
+    </footer>
+    <script src="scripts/index.js" type="module"></script>
+    <script src="scripts/main.js" type="module"></script>
+  </body>
+</html>
